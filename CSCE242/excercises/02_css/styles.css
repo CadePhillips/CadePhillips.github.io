@@ -1,0 +1,58 @@
+/* Structure */
+body {
+    background:#74BF04;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background:#A6D959;
+    padding:10px;
+    margin:25px auto;
+    width:75%;
+    border-radius:10px;
+}
+
+/* Navigation */
+
+#main-nav ul {
+    padding-left: 0;
+    width:fit-content;
+    margin:auto;
+}
+
+#main-nav li {
+    list-style-type:none; /* No bullets */
+    display: inline-block;
+}
+
+#main-nav a {
+    text-decoration: none; /* No underline */
+    background:silver;
+    color:black;   
+    padding:5px;
+    margin:auto;
+    border-radius: 5px;
+}
+
+#main-nav a:hover {
+    background:black;
+    color:#732002;
+}
+
+
+
+
+
+/* Typography */
+h1 {
+    color:#732002;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color:#A63F03;
+}

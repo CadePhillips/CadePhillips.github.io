@@ -1,0 +1,49 @@
+/* Structure */
+body {
+    background: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#52E660;;
+}
+
+/* Assignment Group */
+
+#assignments li {
+    list-style-type: none;
+}
+
+#assignments {
+    background:#4D8E29;
+    padding:20px;
+    width:20%;
+    border-radius: 10px;
+    display:inline-block;
+    text-align: center;
+}
+
+#assignments a {
+    text-decoration: none;
+    color:#5AE5DA;
+    padding:10px;
+    margin:auto;
+    border-radius: 10px;;
+}
+
+#assignments a:hover {
+    background:#5AE5DA;
+    color:#4D8E29;
+}
+
+/* Typography */
+#main-header {
+    text-align: center;
+    color:#4DD190;
+}
+
+#name, #intro{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+

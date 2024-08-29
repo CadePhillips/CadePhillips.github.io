@@ -1,0 +1,95 @@
+/* Structure */
+body {
+    background: url("images/Otter-background.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+#species section{
+    background:lightgreen;
+    padding: 5px;
+    margin:5px
+}
+
+#main-aside {
+    background-color: aqua;
+}
+
+#news section {
+    background: lightcyan;
+}
+
+img {
+    max-width: 95%;
+}
+
+#main-header {
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+#main-footer {
+    background-color: violet;
+}
+
+/* Navigation */
+#main-nav ul {
+    padding-left: 0;
+}
+
+#main-nav li {
+    list-style-type: none;
+    border: 1px solid violet;
+}
+
+#main-nav a {
+    text-decoration: none;
+    padding: 5px;
+    background:black;
+    color: violet;
+    display: block;
+}
+
+/* Typography */
+#main-footer p {
+    text-align: center;
+}
+
+/* Media Queries */
+/* will apply to 600 px and larger */
+@media only screen and (min-width:600px) {
+    .columns {
+        display: flex;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .two {
+        flex:2;
+    }
+
+    .three {
+        flex:3;
+    }
+
+    .four {
+        flex:4;
+    }
+
+    #main-nav li {
+        flex:1
+    }
+}
+
+/* will apply to 768 and larger */
+@media only screen and (min-width:768px) {
+
+}
