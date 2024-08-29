@@ -7,8 +7,14 @@ body {
 
 /* Assignment Group */
 
+#assignments ul {
+    padding-left: 0;
+}
+
 #assignments li {
     list-style-type: none;
+    text-align: center;
+    display: inline-block;
 }
 
 #assignments {
@@ -25,7 +31,8 @@ body {
     color:#5AE5DA;
     padding:10px;
     margin:auto;
-    border-radius: 10px;;
+    border-radius: 10px;
+    display: block;
 }
 
 #assignments a:hover {
