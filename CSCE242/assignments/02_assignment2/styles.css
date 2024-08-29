@@ -1,1 +1,70 @@
 /* Structure */
+body {
+    background: url("images/watermelon.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#content {
+    width:90%;
+    margin: auto;
+    background: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+.images  {
+    display: inline-block;
+    max-width: 100%;
+    border: 5px solid green;
+    margin: auto;
+}
+
+table {
+    margin:auto;
+    border: 3px solid #E2422B;
+    background:lightgreen;
+}
+
+#table-header {
+    color: #E2422B;
+}
+
+/* Navigation */
+#main-nav ul {
+    padding-left: 0;
+    width: fit-content;
+    margin: auto;
+}
+
+#main-nav li {
+    list-style-type: none;
+    border:1px solid white;
+    text-align: center;
+    display: inline-block;
+}
+
+#main-nav a {
+    text-decoration: none;
+    padding: 5px;
+    background: #E2422B;
+    color:lightgreen;
+    display: block;
+}
+
+#main-nav a:hover {
+    background: lightgreen;
+    color:#E2422B;
+}
+
+/* Typography */
+h1, h2 {
+    text-align: center;
+    color: #E2422B;
+}
+
+/* Media Queries */
+@media only screen and (min-width:768px) {
+    .columns {
+        display: flex;
+    }
+}
