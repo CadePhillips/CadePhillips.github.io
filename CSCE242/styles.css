@@ -5,6 +5,13 @@ body {
     color:#52E660;;
 }
 
+#content {
+    width: 90%;
+    margin: auto;
+    background: rgba(255,255,255,0.99);
+    border-radius: 5px;
+}
+
 /* Assignment Group */
 
 #assignments ul {
@@ -64,6 +71,10 @@ h2 {
 
 /* Media Queries */
 @media only screen and (min-width:768px) {
+    #assignments {
+        display: inline-block;
+    }
+
     .one {
         flex:1;
     }
