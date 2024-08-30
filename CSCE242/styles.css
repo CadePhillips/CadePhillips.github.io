@@ -12,6 +12,11 @@ body {
     border-radius: 5px;
 }
 
+.img-block {
+    border-radius: 5%;
+    margin: auto;
+}
+
 /* Assignment Group */
 
 #assignments ul {
@@ -81,5 +86,11 @@ h2 {
     
     .two {
         flex:2;
+    }
+
+    .img-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
