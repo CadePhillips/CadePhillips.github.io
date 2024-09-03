@@ -1,0 +1,73 @@
+/* Structure */
+body {
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background: white;
+}
+
+.columns-all {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+#main-logo {
+    margin-right: 5px;
+}
+
+#main-header {
+    position: relative;
+}
+
+/* Login Menu */
+#login-menu {
+    width: fit-content;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+}
+
+#login-menu ul {
+    display: none;
+    padding-left: 0px;
+}
+
+#login-menu li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#login-menu a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+#login-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query */
+@media only screen and (min-width:768px) {
+    #content {
+        width: 75%;
+        margin: auto;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    #settings {
+        display: none;
+    }
+
+    #login-menu ul {
+        display: flex;
+    }
+}
