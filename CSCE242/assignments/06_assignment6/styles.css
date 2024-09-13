@@ -1,0 +1,115 @@
+body {
+    background-color: #F1F2E9;
+}
+
+#main-header {
+    text-align: center;
+}
+
+h1 {
+    color: #5C878C;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #D98282;
+}
+
+#content {
+    width: 100%;
+    margin: auto;
+}
+
+#main-section, #main-section1 {
+    background-color: #F3F0D5;
+    max-width: 80%;
+    margin: auto;
+    height: 500px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#main-section1 {
+    background-color: #5C878C;
+}
+
+#section1-header {
+    color: white;
+}
+
+#count {
+    color: white;
+    font-size: xx-large;
+}
+
+
+
+#section2-header, #section3-header {
+    color: #5C878C;
+}
+
+#section2-pic {
+    position: relative;
+    left: 90px;
+}
+
+.content-slider {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #DCDCD4;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #D98282;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: white;
+    cursor: pointer;
+}
+
+#section3-pic {
+    position: relative;
+}
+
+/* Media Query */
+@media only screen and (min-width:768px) {
+    .columns {
+        display: flex;
+    }
+
+    .one {
+        flex: 1;
+    }
+
+    #main-section, #main-section1 {
+        background-color: #F3F0D5;
+        max-width: 25%;
+        margin: auto;
+        height: 500px;
+    }
+    
+    #main-section1 {
+        background-color: #5C878C;
+    }
+}

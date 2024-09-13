@@ -1,0 +1,221 @@
+:root {
+    --main-nav-color:#830E0D;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#return-home {
+    text-align: center;
+    background-color: var(--main-nav-color);
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 2%;
+}
+
+#return-home a {
+    text-decoration: none;
+    color: white;
+}
+
+#return-home a:hover {
+    color: var(--main-nav-color);
+    background-color: white;
+}
+
+#return-roster, #return-socials {
+    text-align: center;
+    background-color: var(--main-nav-color);
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 8%;
+}
+
+#return-roster a, #return-socials a {
+    text-decoration: none;
+    color: white;
+}
+
+#return-roster a:hover, #return-socials a:hover {
+    color: var(--main-nav-color);
+    background-color: white;
+}
+
+#main-header {
+    text-align: center;
+}
+
+#home-nav ul {
+    padding-left: 0;
+    width: 100%;
+}
+
+#home-nav li {
+    list-style-type: none;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--main-nav-color);
+}
+
+#home-nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    display: block;
+}
+
+#home-nav a:hover {
+    color: var(--main-nav-color);
+    background-color: white;
+}
+
+#home-content, #follow-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#home-pic {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#roster, #coaches {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#player, #coach {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+
+#social-content {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#about-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#schedule-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#schedule-pic {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 200px;
+    height: 125px;
+    position: relative;
+    left: 60px;
+}
+
+#schedule-info {
+    text-align: center;
+}
+
+/* Media Query */
+@media only screen and (min-width:768px) {
+    .columns {
+        display: flex;
+    }
+
+    .one {
+        flex: 1;
+    }
+    .two {
+        flex: 2;
+    }
+
+    #home-nav ul {
+        width: 60%;
+        margin: auto;
+    }
+
+    #home-nav li {
+        flex: 1;
+    }
+
+    #home-content, #follow-content {
+        text-align: center;
+    }
+
+    #home-pic {
+        width: 35%;
+        display: block;
+    }
+
+    #roster, #coaches {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    #player, #coach {
+        padding: 50px;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about-content {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #schedule-content {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #schedule-pic {
+        width: 200px;
+        height: 125px;
+        position: relative;
+        left: 40px;
+    }
+
+    #schedule-section {
+        padding: 50px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        
+    }
+}
