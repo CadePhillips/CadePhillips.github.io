@@ -1,5 +1,5 @@
 body {
-    background-color: #F1F2E9;
+    background-color: skyblue;
 }
 
 #main-header {
@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-    color: #5C878C;
+    color: navy;
     text-align: center;
 }
 
 h2 {
     text-align: center;
-    color: #D98282;
+    color: navy;
 }
 
 #content {
@@ -21,8 +21,8 @@ h2 {
     margin: auto;
 }
 
-#main-section, #main-section1 {
-    background-color: #F3F0D5;
+#main-section, #main-section1, #main-section3 {
+    background-color: navy;
     max-width: 80%;
     margin: auto;
     height: 500px;
@@ -32,8 +32,8 @@ h3 {
     text-align: center;
 }
 
-#main-section1 {
-    background-color: #5C878C;
+#main-section1, #main-section3 {
+    background-color: navy;
 }
 
 #section1-header {
@@ -48,7 +48,7 @@ h3 {
 
 
 #section2-header, #section3-header {
-    color: #5C878C;
+    color: white;
 }
 
 #section2-pic {
@@ -56,41 +56,56 @@ h3 {
     left: 90px;
 }
 
-.content-slider {
+#content-slider {
     width: 100%;
 }
 
-.slider {
+#slider {
     -webkit-appearance: none;
     appearance: none;
-    width: 100%;
+    width: 99%;
     height: 25px;
     background: #DCDCD4;
     outline: none;
     opacity: 0.8;
     -webkit-transition: .2s;
-    transition: opacity 0.2s;
+    transition: 0.2s;
 }
 
-.slider::-webkit-slider-thumb {
+#slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #D98282;
+    background: red;
     cursor: pointer;
 }
 
-.slider::-moz-range-thumb {
+#slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     background: white;
     cursor: pointer;
 }
 
-#section3-pic {
+#content-slider {
     position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
 }
+
+
+#section3-pic {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 50px;
+    left: 0;
+    transition: left 0.1s;
+}
+
 
 /* Media Query */
 @media only screen and (min-width:768px) {
@@ -102,14 +117,14 @@ h3 {
         flex: 1;
     }
 
-    #main-section, #main-section1 {
-        background-color: #F3F0D5;
+    #main-section, #main-section1, #main-section3 {
+        background-color: navy;
         max-width: 25%;
         margin: auto;
         height: 500px;
     }
     
     #main-section1 {
-        background-color: #5C878C;
+        background-color: navy;
     }
 }
