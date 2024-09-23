@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 7</title>
+        <link rel="stylesheet" a href="styles.css">
+    </head>
+    <body>
+        <h1 id="main-header">Assignment 7</h1>
+        <h2 id="main-header">If Statements</h2>
+
+        <nav id="main-nav">
+            <div id="toggle-nav1">
+                <p>&#x2193;</p>
+            </div>
+            <div id="toggle-nav2" class="hidden-small">
+                <p>&#x2191;</p>
+            </div>
+
+            <ul id="nav-items" class="hidden-small">
+                <li id="section1"><a href="#">Exercise 1</a></li>
+                <li><p id="middle">|</p></li>
+                <li id="section2"><a href="#">Exercise 2</a></li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <div id="content2" class="hidden1 hidden2">
+                <h2 id="main-header">Color Slider</h2>
+                <div id="content-slider">
+                    <input type="range" min="1" max="255" value="1" id="slider" id="move">
+                </div>
+                <p id="message"></p>
+            </div>
+            <div id="content1" class="hidden2 hidden1">
+                <h2 id="main-header">Picture Chooser</h2>
+
+                <button onclick="showImage('small')">Small</button>
+                <button onclick="showImage('medium')">Medium</button>
+                <button onclick="showImage('large')">Large</button>
+                <div id="img-container">
+                    <img id="pic-chosen" src="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

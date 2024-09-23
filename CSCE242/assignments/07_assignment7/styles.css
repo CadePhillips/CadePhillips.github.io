@@ -1,0 +1,185 @@
+:root {
+    --background-color: skyblue;
+    --font-color:navy;
+    --r-value:0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#main-nav li {
+    list-style-type: none;
+    display: flex;
+}
+
+#main-nav a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-size: large;
+    padding: 5px;
+}
+
+#main-nav a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#toggle-nav1, #toggle-nav2 {
+    padding-left: 50px;
+}
+
+
+#middle {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden-small {
+    display: none;
+}
+
+.hidden1 {
+    display: block;
+}
+
+.hidden2 {
+    display: none;
+}
+
+#content2 {
+    background-color: rgb(var(--r-value), 0, 0);;
+    padding: 10px;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content1 {
+    background-color: navy;
+    padding: 10px;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-slider {
+    width: 100%;
+}
+
+#slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 99%;
+    height: 25px;
+    background-color: white;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: red;
+    cursor: pointer;
+}
+
+#slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#content-slider {
+    position: relative;
+    width:100%;
+    height: 75px;
+    overflow: hidden;
+    display: flex;
+}
+
+#message {
+    color: white;
+}
+
+#content-pic {
+    display: none;
+}
+
+.size1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.size2 {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.size3 {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+#img-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+/* Media Query */
+@media only screen and (min-width: 768px) {
+    body {
+        text-align: center
+    }
+
+    #main-nav li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #toggle-nav1, #toggle-nav2 {
+        display: none;
+    }
+
+    #middle {
+        display: block;
+    }
+
+    .hidden-small {
+        display: inline-block;
+    }
+
+    #content2, #content1 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
