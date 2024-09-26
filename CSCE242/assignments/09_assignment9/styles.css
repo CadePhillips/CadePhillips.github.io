@@ -1,0 +1,52 @@
+:root {
+    --background-color: skyblue;
+    --font-color:navy;
+    --content-color:navy;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+#content {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--content-color);
+}
+
+#pic {
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-flex;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media only screen and (min-width: 768px) {
+    body {
+        text-align: center
+    }
+
+    #content {
+        width: 60%;
+    }
+
+
+}
