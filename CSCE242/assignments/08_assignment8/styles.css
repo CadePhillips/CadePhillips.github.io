@@ -28,6 +28,16 @@ h1, h2 {
     background-color: black;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    position: relative;
+}
+
+.visible {
+    display: block  ;
 }
 
 
@@ -44,6 +54,7 @@ Code for star from coding-dude.com/wp/css/css-star/
     border-left: 1em solid transparent;
     border-right: 1em solid transparent;
     border-bottom: calc(1em * var(--sqrt-3)) solid var(--star-color);
+    scale: 0.25;
 }
 
 .six-pointed-star:after {

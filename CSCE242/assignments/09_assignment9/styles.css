@@ -1,12 +1,14 @@
 :root {
     --background-color: skyblue;
     --font-color:navy;
+    --font-color-content:white;
     --content-color:navy;
 }
 
 body {
     background-color: var(--background-color);
     color: var(--font-color);
+    text-align: center;
 }
 
 h1, h2 {
@@ -19,15 +21,28 @@ h1, h2 {
     margin-right: auto;
     margin-left: auto;
     background-color: var(--content-color);
+    color: var(--font-color-content);
+    height: 525px;
 }
 
-#pic {
-    height: 200px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-flex;
+#image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    width: 100%;
+    justify-items: center;
+}
+
+#image img {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+#credit, #credit a {
+    color: white;
+    text-align: left;
+    padding: 5px;
 }
 
 
@@ -41,11 +56,12 @@ h1, h2 {
 /* Media Query */
 @media only screen and (min-width: 768px) {
     body {
-        text-align: center
+        text-align: center;
     }
 
     #content {
-        width: 60%;
+        width: 40%;
+        height: 700px;
     }
 
 
