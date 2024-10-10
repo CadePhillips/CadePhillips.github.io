@@ -1,96 +1,96 @@
 [
     {
         "image": "images/player-pics/kimball-pic.webp",
-        "Name:": "Roman Kimball",
-        "Number:": "2",
-        "Position:": [
+        "name:": "Roman Kimball",
+        "number:": "2",
+        "postion:": [
             "Right Handed Pitcher"
         ],
-        "Year:": "Redshirt Sophomore",
-        "Hometown:": "New Hartford, N.Y.",
-        "Previous School:": "Notre Dame",
-        "Height:": "5-11",
-        "Weight:": "185",
-        "Bats:": "Right",
-        "Throws:": "Right"
+        "year:": "Redshirt Sophomore",
+        "hometown:": "New Hartford, N.Y.",
+        "previous-school:": "Notre Dame",
+        "height:": "5-11",
+        "weight:": "185",
+        "bats:": "Right",
+        "throws:": "Right"
     },
     {
         "image": "images/player-pics/ellis-pic.webp",
-        "Name:": "Lee Ellis",
-        "Number:": "3",
-        "Position:": [
+        "name:": "Lee Ellis",
+        "number:": "3",
+        "postion:": [
             "Middle Infield",
             "Third Base"
         ],
-        "Year:": "Freshman",
-        "Hometown:": "White Plains, M.D.",
-        "Previous School:": "None",
-        "Height:": "5-11",
-        "Weight:": "170",
-        "Bats:": "Right",
-        "Throws:": "Right"
+        "year:": "Freshman",
+        "hometown:": "White Plains, M.D.",
+        "previous-school:": "None",
+        "height:": "5-11",
+        "weight:": "170",
+        "bats:": "Right",
+        "throws:": "Right"
     },
     {
         "image": "images/player-pics/phipps-pic.webp",
-        "Name:": "Jackson Phipps",
-        "Number:": "4",
-        "Position:": [
+        "name:": "Jackson Phipps",
+        "number:": "4",
+        "postion:": [
             "Left Handed Pitcher"
         ],
-        "Year:": "Redshirt Junior",
-        "Hometown:": "Dallas, G.A.",
-        "Previous School:": "None",
-        "Height:": "6-4",
-        "Weight:": "225",
-        "Bats:": "Left",
-        "Throws:": "Left"
+        "year:": "Redshirt Junior",
+        "hometown:": "Dallas, G.A.",
+        "previous-school:": "None",
+        "height:": "6-4",
+        "weight:": "225",
+        "bats:": "Left",
+        "throws:": "Left"
     },
     {
         "image": "images/player-pics/lecroy-pic.webp",
-        "Name:": "Talmadge Lecroy",
-        "Number:": "5",
-        "Position:": [
+        "name:": "Talmadge Lecroy",
+        "number:": "5",
+        "position:": [
             "Third Base",
             "Middle Infield",
             "Catcher"
         ],
-        "Year:": "Junior",
-        "Hometown:": "Belton, S.C.",
-        "Previous School:": "None",
-        "Height:": "6-2",
-        "Weight:": "205",
-        "Bats:": "Right",
-        "Throws:": "Right"
+        "year:": "Junior",
+        "hometown:": "Belton, S.C.",
+        "previous-school:": "None",
+        "height:": "6-2",
+        "weight:": "205",
+        "bats:": "Right",
+        "throws:": "Right"
     },
     {
         "image": "images/player-pics/jackson-pic.webp",
-        "Name:": "Blake Jackon",
-        "Number:": "5",
-        "Position:": [
+        "name:": "Blake Jackon",
+        "number:": "5",
+        "position:": [
             "Outfield",
             "First Base"
         ],
-        "Year:": "Junior",
-        "Hometown:": "Coppel, T.X.",
-        "Previous School:": "Charlotte",
-        "Height:": "6-0",
-        "Weight:": "195",
-        "Bats:": "Left",
-        "Throws:": "Left"
+        "year:": "Junior",
+        "hometown:": "Coppel, T.X.",
+        "previous-school:": "Charlotte",
+        "height:": "6-0",
+        "weight:": "195",
+        "bats:": "Left",
+        "throws:": "Left"
     },
     {
         "image": "images/player-pics/jones-pic.webp",
-        "Name:": "Kennedy Jones",
-        "Number:": "7",
-        "Position:": [
+        "name:": "Kennedy Jones",
+        "number:": "7",
+        "position:": [
             "Outfield"
         ],
-        "Year:": "Junior",
-        "Hometown:": "Norfolk, V.A.",
-        "Previous School:": "UNC Greensboro",
-        "Height:": "6-1",
-        "Weight:": "220",
-        "Bats:": "Right",
-        "Throws:": "Right"
+        "year:": "Junior",
+        "hometown:": "Norfolk, V.A.",
+        "previous-school:": "UNC Greensboro",
+        "height:": "6-1",
+        "weight:": "220",
+        "bats:": "Right",
+        "throws:": "Right"
     }
 ]
