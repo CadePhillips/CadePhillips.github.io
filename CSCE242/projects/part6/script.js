@@ -3,9 +3,10 @@ navHidden.onclick = () => {
     document.getElementById("nav-items").classList.toggle("hidden-small");
 }
 
+const url = "https://cadephillips.github.io/CSCE242/projects/part6/player-info.json";
 const getPlayer = async() => {
     try {
-        return (await fetch("player-info.json"));
+        return (await fetch(url));
     } catch(error) {
         console.log(error);
     }
@@ -14,7 +15,7 @@ const getPlayer = async() => {
 const showPlayer = async() => {
     const players = await getPlayer();
 
-    players.forEach((player)=> {
+    players.forEach((player) => {
         const section = document.createElement("section");
         section.classList.add("player");
         document.getElementById("roster").append(section);

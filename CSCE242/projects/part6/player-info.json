@@ -14,9 +14,83 @@
         "Bats:": "Right",
         "Throws:": "Right"
     },
-    {},
-    {},
-    {},
-    {},
-    {}
+    {
+        "image": "images/player-pics/ellis-pic.webp",
+        "Name:": "Lee Ellis",
+        "Number:": "3",
+        "Position:": [
+            "Middle Infield",
+            "Third Base"
+        ],
+        "Year:": "Freshman",
+        "Hometown:": "White Plains, M.D.",
+        "Previous School:": "None",
+        "Height:": "5-11",
+        "Weight:": "170",
+        "Bats:": "Right",
+        "Throws:": "Right"
+    },
+    {
+        "image": "images/player-pics/phipps-pic.webp",
+        "Name:": "Jackson Phipps",
+        "Number:": "4",
+        "Position:": [
+            "Left Handed Pitcher"
+        ],
+        "Year:": "Redshirt Junior",
+        "Hometown:": "Dallas, G.A.",
+        "Previous School:": "None",
+        "Height:": "6-4",
+        "Weight:": "225",
+        "Bats:": "Left",
+        "Throws:": "Left"
+    },
+    {
+        "image": "images/player-pics/lecroy-pic.webp",
+        "Name:": "Talmadge Lecroy",
+        "Number:": "5",
+        "Position:": [
+            "Third Base",
+            "Middle Infield",
+            "Catcher"
+        ],
+        "Year:": "Junior",
+        "Hometown:": "Belton, S.C.",
+        "Previous School:": "None",
+        "Height:": "6-2",
+        "Weight:": "205",
+        "Bats:": "Right",
+        "Throws:": "Right"
+    },
+    {
+        "image": "images/player-pics/jackson-pic.webp",
+        "Name:": "Blake Jackon",
+        "Number:": "5",
+        "Position:": [
+            "Outfield",
+            "First Base"
+        ],
+        "Year:": "Junior",
+        "Hometown:": "Coppel, T.X.",
+        "Previous School:": "Charlotte",
+        "Height:": "6-0",
+        "Weight:": "195",
+        "Bats:": "Left",
+        "Throws:": "Left"
+    },
+    {
+        "image": "images/player-pics/jones-pic.webp",
+        "Name:": "Kennedy Jones",
+        "Number:": "7",
+        "Position:": [
+            "Outfield"
+        ],
+        "Year:": "Junior",
+        "Hometown:": "Norfolk, V.A.",
+        "Previous School:": "UNC Greensboro",
+        "Height:": "6-1",
+        "Weight:": "220",
+        "Bats:": "Right",
+        "Throws:": "Right"
+    }
 ]
