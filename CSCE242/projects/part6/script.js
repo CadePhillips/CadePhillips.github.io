@@ -33,9 +33,14 @@ const showPlayers = async() => {
         numberP.innerHTML = player.number;
         numberP.append(p);
 
-        const numberP = document.createElement("p");
-        numberP.innerHTML = player.number;
-        numberP.append(p);
+        const ul = document.createElement("ul");
+        section.append(ul);
+
+        player.position.forEach((position)=>{
+            const li = document.createElement("li");
+            li.innerHTML = position;
+            ul.append(li);
+        });
 
         const yearP = document.createElement("p");
         yearP.innerHTML = player.year;
@@ -45,6 +50,25 @@ const showPlayers = async() => {
         hometownP.innerHTML = player.hometown;
         hometownP.append(p);
     
+        const prevP = document.createElement("p");
+        prevP.innerHTML = player.previous-school;
+        numberP.append(p);
+
+        const heightP = document.createElement("p");
+        heightP.innerHTML = player.height;
+        heightP.append(p);
+
+        const weightP = document.createElement("p");
+        weightP.innerHTML = player.weight;
+        weightP.append(p);
+
+        const batsP = document.createElement("p");
+        batsP.innerHTML = player.bats;
+        batsP.append(p);
+
+        const throwsP = document.createElement("p");
+        throwsP.innerHTML = player.throws;
+        throwsP.append(p);
     });
     
 }
