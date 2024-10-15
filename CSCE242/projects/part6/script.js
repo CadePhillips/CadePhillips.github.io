@@ -16,8 +16,8 @@ const getPlayers = async() => {
 const showPlayers = async() => {
     const players = await getPlayers();
     players.forEach((player)=>{
+
         console.log(player.image);
-        console.log(player.name);
         const section = document.createElement("section");
         section.classList.add("player");
         document.getElementById("roster").append(section);
@@ -46,31 +46,31 @@ const showPlayers = async() => {
 
         const yearP = document.createElement("p");
         yearP.innerHTML = player.year;
-        yearP.append(p);
+        section.append(yearP);
 
         const hometownP = document.createElement("p");
         hometownP.innerHTML = player.hometown;
-        hometownP.append(p);
+        section.append(hometownP);
     
         const prevP = document.createElement("p");
         prevP.innerHTML = player.previous-school;
-        numberP.append(p);
+        section.append(prevP);
 
         const heightP = document.createElement("p");
         heightP.innerHTML = player.height;
-        heightP.append(p);
+        section.append(heightP);
 
         const weightP = document.createElement("p");
         weightP.innerHTML = player.weight;
-        weightP.append(p);
+        section.append(weightP);
 
         const batsP = document.createElement("p");
         batsP.innerHTML = player.bats;
-        batsP.append(p);
+        section.append(batsP);
 
         const throwsP = document.createElement("p");
         throwsP.innerHTML = player.throws;
-        throwsP.append(p);
+        section.append(throwsP);
     });
     
 }
