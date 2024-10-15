@@ -7,7 +7,7 @@ const getPlayers = async() => {
     const url = "https://cadephillips.github.io/CSCE242/projects/part6/player-info.json";
 
     try {
-        return (await fetch(url));
+        return (await fetch(url)).json();
     } catch(error) {
         console.log(error);
     }
@@ -15,8 +15,9 @@ const getPlayers = async() => {
 
 const showPlayers = async() => {
     const players = await getPlayers();
-
     players.forEach((player)=>{
+        console.log(player.image);
+        console.log(player.name);
         const section = document.createElement("section");
         section.classList.add("player");
         document.getElementById("roster").append(section);
@@ -27,16 +28,17 @@ const showPlayers = async() => {
 
         const nameP = document.createElement("p");
         nameP.innerHTML = player.name;
-        nameP.append(p);
+        section.append(nameP);
 
         const numberP = document.createElement("p");
         numberP.innerHTML = player.number;
-        numberP.append(p);
+        section.append(numberP);
 
         const ul = document.createElement("ul");
         section.append(ul);
 
-        player.position.forEach((position)=>{
+        console.log(player.name);
+        player.postion.forEach((position)=>{
             const li = document.createElement("li");
             li.innerHTML = position;
             ul.append(li);
