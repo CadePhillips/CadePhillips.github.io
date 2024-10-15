@@ -53,7 +53,7 @@ const showPlayers = async() => {
         section.append(hometownP);
     
         const prevP = document.createElement("p");
-        prevP.innerHTML = player.previous-school;
+        prevP.innerHTML = player.previousschool;
         section.append(prevP);
 
         const heightP = document.createElement("p");

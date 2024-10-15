@@ -49,7 +49,7 @@
         "image": "images/player-pics/lecroy-pic.webp",
         "name": "Talmadge Lecroy",
         "number": "5",
-        "position": [
+        "postion": [
             "Third Base",
             "Middle Infield",
             "Catcher"
@@ -66,7 +66,7 @@
         "image": "images/player-pics/jackson-pic.webp",
         "name": "Blake Jackon",
         "number": "5",
-        "position": [
+        "postion": [
             "Outfield",
             "First Base"
         ],
@@ -82,7 +82,7 @@
         "image": "images/player-pics/jones-pic.webp",
         "name": "Kennedy Jones",
         "number": "7",
-        "position": [
+        "postion": [
             "Outfield"
         ],
         "year": "Junior",
