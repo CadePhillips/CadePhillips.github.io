@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us</title>
+        <link rel="stylesheet" a href="styles.css">
+    </head>
+    <body>
+        <h1 id="main-header">About Us</h1>
+        <nav id="home-nav">
+            <div id="toggle-nav">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="columns hidden-small">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="coaches.html">Coaches</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="follow.html">How to Follow</a></li>
+            </ul>
+        </nav>
+        <p id="about-content">Welcome to the University of South Carolina Gamecocks Baseball site. The Gamecocks are a Division 1 Baseball program that compete in the South Eastern Conference</p>
+        <h2 id="about-header">Ticketing Information</h2>
+        <h3 id="home-content">Would you like to learn more about tickets?</h3>
+        <p id="home-content">Student ticket request</a></p>
+        <p id="home-content">Season ticket information</p>
+        <p id="home-content">Account manager</p>
+        <p id="home-content">Access your digital tickets</p>
+        <img id="home-pic" src="images/home-pic.webp">
+
+        <section id="contact-section">
+          <form
+            id="contact-form"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="333150bf-cb3c-4bda-8ef0-e0ffca742b5d"
+            />
+
+            <p>
+              <label for="name">Name:</label>
+              <input
+                id="name"
+                type="text"
+                placeholder="first and last"
+                name="name"
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input id="email" type="email" placeholder="example@email.com" name="email" required />
+            </p>
+            <p>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"placeholder="Type message here" required></textarea>
+            </p>
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://web3forms.com/success"
+            />
+            <input
+              type="hidden"
+              name="subject"
+              value="Contact from my Website"
+            />
+            <input type="hidden" name="from_name" value="My Website" />
+
+            <p>
+              <button type="submit">Submit Form</button>
+            </p>
+
+            <p id="result"></p>
+          </form>
+
+          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13232.933264755342!2d-81.06167541284178!3d33.986540399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb3ccb755831%3A0x5e1d90d573c88292!2sFounders%20Park!5e0!3m2!1sen!2sus!4v1729800525659!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </section>
+    
+
+        <script src="contactme.js"></script>
+        <script src="menu.js"></script>
+    </body>
+</html>
